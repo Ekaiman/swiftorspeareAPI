@@ -5,7 +5,7 @@ const quotes = require('./data/quotes')
 
 
 
-app.get('/quotes', (req, res) => {
+app.get('/', (req, res) => {
   res.status(200).json({ quotes })
 })
 
